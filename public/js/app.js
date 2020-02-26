@@ -26,8 +26,8 @@ weatherForm.addEventListener('submit', (e) => {
             } else {
                 messageOne.textContent = data.location 
                 messageTwo.textContent = data.forecast.Summary
-                messageThree.textContent = 'Temperature: ' + data.forecast.Temperature
-                messageFour.textContent = 'Rain Percentage: ' + data.forecast.Rain_Percentage
+                messageThree.textContent = 'Temperature: ' + data.forecast.Temperature + ' degrees'
+                messageFour.textContent = 'Rain Percentage: ' + data.forecast.Rain_Percentage + '%'
             }
         })
 
